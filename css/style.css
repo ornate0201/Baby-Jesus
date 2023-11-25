@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif ;
+}
+a{
+   text-decoration: none;
+   padding: 50px;
+   font-size: 50px;
+   color: brown;
+   transform: .6s;
+}
+
+a:hover{
+    color: white;
+
+}
+
+/*=================*/
+
+
+p {
+    align-items: center; 
+    font-size: 60px;
+    margin-top: 0px;
+    color: white;
+  }
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/images.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+  }
+
+  .logo{
+    width: 200px;
+    padding: 20px 0;
+    cursor: pointer;
+ }
+
+  .container h1{
+    align-items:center ;
+    color:yellow;
+    padding-top: 20px;  
+    
+  }
+
+
+  .container .msg{
+    color: red;
+    font-size: 40px;
+  }
+
+  .santa{
+    width: 400px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: santa 4s linear infinite;
+}
+
+@keyframes santa{
+    0%{
+         bottom: 0;
+         opacity: 0;
+    }
+    100%{
+        bottom: 105;
+        opacity: 1;  
+   }
+}
+
